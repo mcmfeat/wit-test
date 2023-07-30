@@ -1,0 +1,68 @@
+.WeatherInfo {
+  margin: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.city-container {
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.city-label {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.temperature-container {
+  width: 50%;
+  min-width: 335px;
+  display: flex;
+  justify-content: center;
+}
+
+.WeatherInfo .icon {
+  font-size: 90px;
+  margin-right: 20px;
+  line-height: 100px;
+}
+
+.WeatherInfo .temperature {
+  font-size: 120px;
+}
+
+.WeatherInfo .temperature-unit {
+  font-size: 30px;
+  line-height: 80px;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 716px) {
+
+  .WeatherInfo {
+  margin: 8px;
+  }
+
+  .WeatherInfo .city-container {
+    text-align: center;
+  }
+
+  .WeatherInfo .icon {
+    font-size: 50px;
+  }
+
+  .WeatherInfo .temperature {
+    font-size: 80px;
+  }
+
+  .WeatherInfo .temperature-unit {
+    font-size: 18px;
+    line-height: 50px;
+  }
+}

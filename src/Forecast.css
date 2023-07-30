@@ -1,0 +1,18 @@
+.Forecast {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 716px) {
+  .Forecast {
+    font-size: 18px;
+    flex-direction: column;
+  }
+
+  .day-container {
+    margin: 10px;
+  }
+}

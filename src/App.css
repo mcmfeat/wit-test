@@ -1,0 +1,38 @@
+.App {
+  font-family: arial, sans-serif;
+  padding: 1em;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.app-container {
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form1 {
+  justify-content: center;
+}
+
+.form2 {
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container {
+  width: 50%;
+  max-width: 500px;
+  display: flex;
+}
+
+.input-field {
+  width: 95%;
+}

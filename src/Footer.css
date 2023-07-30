@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #b9ac65a1;
+}
+
+.Footer p {
+  font-size: 14px;
+  color: rgba(168, 168, 168, 0.7);
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  font-style: normal;
+  max-width: 60%;
+  text-shadow: none;
+  padding: 10px;
+}
+
+.Footer a {
+  color: rgba(168, 168, 168, 0.7);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
