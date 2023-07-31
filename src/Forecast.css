@@ -6,10 +6,16 @@
   margin: 20px;
 }
 
+.max-cointainer {
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 716px) {
   .Forecast {
-    font-size: 18px;
+    font-size: 20px;
     flex-direction: column;
+    padding: 10px;
+    margin: 10px;
   }
 
   .day-container {
