@@ -48,19 +48,18 @@ export default function App() {
     alert(message);
   }
 
-  function getWeatherData(formValues) {
+  const getWeatherData = (formValues) => {
     const apiKey = "0dc40d3d7cda209ca40e77430c74cf57";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${formValues.city}&appid=${apiKey}&units=${unit}`;
     axios.get(apiUrl).then(handleWeatherDataResponse, handleError);
-  }
+  };
 
-  function getForecastData(latitude, longitude) {
+  const getForecastData = (latitude, longitude) => {
     let apiKey = "0dc40d3d7cda209ca40e77430c74cf57";
-
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${unit}`;
 
     axios.get(apiUrl).then(handleForecastResponse, handleError);
-  }
+  };
 
   useEffect(() => {
     const defaultCity = { city: "Lisbon" };
